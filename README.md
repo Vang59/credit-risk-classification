@@ -63,12 +63,12 @@ The data used for this analysis came from the [Lending CSV file](Credit_Risk/Res
     * Accuracy is 99% shows a near perfect model. 
     * Labels: 
         * `0 (healthy loan)`
-            * Value counts: 
+            * Value counts: 56271
             * Precision of 1 (100%) shows no false positives. 
             * Recall of 99% shows very little false negatives. 
             * f1-score of 1 (100%) shows a perfect model. 
         * `1 (high-risk loan)`
-            * Value counts: 
+            * Value counts: 56271
             * Precison of 84% shows low false positives. 
             * Recall of 99% shows very low false negatives. 
             * f1-score of 91% shows a near perfect model. 
