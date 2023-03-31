@@ -28,7 +28,7 @@ The data used for this analysis came from the [Lending CSV file](Credit_Risk/Res
     * num_of_accounts
     * derogatory_marks
     * total_debt
-    * loan_status 
+    
 #### Process 
 1. **Model 1**
     * Create a prediction model using the `trained data` and `LogisticRegression`. 
@@ -44,6 +44,7 @@ The data used for this analysis came from the [Lending CSV file](Credit_Risk/Res
         * `balanced_accuracy_score`
         * `confusion_matrix`
         * print(`classification_report`)
+
 ## Results 
 * Machine Learning Model 1: 
     * Acccuracy is 99% shows a near perfect model. 
@@ -72,6 +73,7 @@ The data used for this analysis came from the [Lending CSV file](Credit_Risk/Res
             * Precison of 84% shows low false positives. 
             * Recall of 99% shows very low false negatives. 
             * f1-score of 91% shows a near perfect model. 
+            
 ## Summary 
 The purpose of this analysis is to identify the creditworthiness of borrowers factoring in the values `0` and `1`. Since this analysis is based on loan risk, predictions for the `1`'s are more important. Although both models produced a 99% accuracy, `Model 2` is a better model as the f1-score is higher by 3%. 
 
